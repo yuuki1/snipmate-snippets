@@ -60,6 +60,11 @@ snippet sub
 	sub ${1:function_name} {
 		${2:#body ...}
 	}
+# subtest
+snippet subtest
+	subtest ${1:test_name} => sub {
+		${2:#body ...}
+	};
 # Conditional
 snippet if
 	if (${1}) {
